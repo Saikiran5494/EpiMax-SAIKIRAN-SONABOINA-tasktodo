@@ -1,7 +1,7 @@
 import { RiDeleteBin5Line } from "react-icons/ri";
 import "./index.css"
 const UserTask = (props) => {
-    const {eachTodo,deleteIcon,userInputList} = props
+    const {eachTodo,deleteIcon} = props
     const {id,userInput} = eachTodo
     let labelId = "label" + id 
 
